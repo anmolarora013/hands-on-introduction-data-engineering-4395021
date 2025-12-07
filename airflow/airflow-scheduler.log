@@ -1,0 +1,20 @@
+2025-12-07 10:36:27,722 WARNING - Could not import pandas. Holidays will not be considered.
+2025-12-07 10:36:27,795 INFO - Starting log server on http://[::]:8793
+2025-12-07 11:08:23,502 WARNING - Could not import pandas. Holidays will not be considered.
+2025-12-07 11:08:23,534 INFO - Starting log server on http://[::]:8793
+2025-12-07 11:08:23,562 INFO - Loaded executor: :LocalExecutor:
+2025-12-07 11:15:04,486 INFO - Starting log server on http://[::]:8793
+2025-12-07 11:15:04,504 INFO - Loaded executor: :LocalExecutor:
+2025-12-07 11:21:43,644 INFO - Starting log server on http://[::]:8793
+2025-12-07 11:21:43,680 INFO - Loaded executor: :LocalExecutor:
+2025-12-07 11:24:20,641 INFO - Starting log server on http://[::]:8793
+2025-12-07 11:24:20,681 INFO - Loaded executor: :LocalExecutor:
+2025-12-07 11:51:02,368 INFO - Worker starting up pid=53918
+2025-12-07 11:51:02,375 INFO - Worker starting up pid=53919
+2025-12-07 11:54:20,808 INFO - checking for stale bundle versions locally
+2025-12-07 12:03:46,124 INFO - Starting log server on http://[::]:8793
+2025-12-07 12:03:46,152 INFO - Loaded executor: :LocalExecutor:
+2025-12-07 12:37:45,338 INFO - Starting log server on http://[::]:8793
+2025-12-07 12:37:45,351 INFO - Loaded executor: :LocalExecutor:
+2025-12-07 12:37:45,714 INFO - Worker starting up pid=73801
+2025-12-07 12:37:45,723 INFO - Worker starting up pid=73800
