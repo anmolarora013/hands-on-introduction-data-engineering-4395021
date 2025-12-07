@@ -1816,3 +1816,84 @@ dags-folder  two_task_dag.py                                     1           0  
 2025-12-07T13:01:30.232602Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
 2025-12-07T13:01:30.235596Z [info     ] Setting next_dagrun for two_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
 2025-12-07T13:01:34.284380Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:01:39.327268Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:01:44.371475Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:01:49.431116Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:01:54.489644Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:01:59.531432Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:00.531431Z [info     ] 
+================================================================================
+DAG File Processing Stats
+
+Bundle       File Path         PID    Current Duration      # DAGs    # Errors  Last Duration    Last Run At
+-----------  ----------------  -----  ------------------  --------  ----------  ---------------  -------------------
+dags-folder  two_task_dag.py                                     1           0  0.09s            2025-12-07T13:01:30
+dags-folder  one_task_dags.py                                    1           0  0.05s            2025-12-07T13:01:30
+================================================================================ [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:775
+2025-12-07T13:02:00.603794Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
+2025-12-07T13:02:00.609152Z [info     ] Setting next_dagrun for two_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
+2025-12-07T13:02:00.628823Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
+2025-12-07T13:02:00.630594Z [info     ] Setting next_dagrun for one_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
+2025-12-07T13:02:04.650821Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:09.700293Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:14.753255Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:19.799163Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:24.849448Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:29.906932Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:30.908915Z [info     ] 
+================================================================================
+DAG File Processing Stats
+
+Bundle       File Path         PID    Current Duration      # DAGs    # Errors  Last Duration    Last Run At
+-----------  ----------------  -----  ------------------  --------  ----------  ---------------  -------------------
+dags-folder  one_task_dags.py                                    1           0  0.08s            2025-12-07T13:02:00
+dags-folder  two_task_dag.py                                     1           0  0.07s            2025-12-07T13:02:00
+================================================================================ [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:775
+2025-12-07T13:02:30.977092Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
+2025-12-07T13:02:30.983729Z [info     ] Setting next_dagrun for one_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
+2025-12-07T13:02:31.011241Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
+2025-12-07T13:02:31.014243Z [info     ] Setting next_dagrun for two_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
+2025-12-07T13:02:35.055688Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:40.112162Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:45.155054Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:50.199192Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:02:55.240208Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:00.284758Z [info     ] Refreshing bundle dags-folder  [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:553
+2025-12-07T13:03:00.288618Z [info     ] Searching for files in dags-folder at /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:604
+2025-12-07T13:03:00.289775Z [info     ] Found 2 files for bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:606
+2025-12-07T13:03:01.283568Z [info     ] 
+================================================================================
+DAG File Processing Stats
+
+Bundle       File Path         PID    Current Duration      # DAGs    # Errors  Last Duration    Last Run At
+-----------  ----------------  -----  ------------------  --------  ----------  ---------------  -------------------
+dags-folder  two_task_dag.py                                     1           0  0.09s            2025-12-07T13:02:31
+dags-folder  one_task_dags.py                                    1           0  0.05s            2025-12-07T13:02:30
+================================================================================ [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:775
+2025-12-07T13:03:01.353660Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
+2025-12-07T13:03:01.359316Z [info     ] Setting next_dagrun for one_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
+2025-12-07T13:03:01.406864Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
+2025-12-07T13:03:01.409977Z [info     ] Setting next_dagrun for two_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
+2025-12-07T13:03:05.505239Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:10.550956Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:15.589442Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:20.630034Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:25.671555Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:30.726783Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:31.721441Z [info     ] 
+================================================================================
+DAG File Processing Stats
+
+Bundle       File Path         PID    Current Duration      # DAGs    # Errors  Last Duration    Last Run At
+-----------  ----------------  -----  ------------------  --------  ----------  ---------------  -------------------
+dags-folder  two_task_dag.py                                     1           0  0.12s            2025-12-07T13:03:01
+dags-folder  one_task_dags.py                                    1           0  0.06s            2025-12-07T13:03:01
+================================================================================ [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:775
+2025-12-07T13:03:31.791144Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
+2025-12-07T13:03:31.795899Z [info     ] Setting next_dagrun for two_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
+2025-12-07T13:03:31.816036Z [info     ] Sync 1 DAGs                    [airflow.serialization.serialized_objects] loc=serialized_objects.py:2893
+2025-12-07T13:03:31.817596Z [info     ] Setting next_dagrun for one_task_dag to None, run_after=None [airflow.models.dag] loc=dag.py:688
+2025-12-07T13:03:35.843060Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:40.893996Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:45.941667Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550
+2025-12-07T13:03:50.989867Z [info     ] Not time to refresh bundle dags-folder [airflow.dag_processing.manager.DagFileProcessorManager] loc=manager.py:550

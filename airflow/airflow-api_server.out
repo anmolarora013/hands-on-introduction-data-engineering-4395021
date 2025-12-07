@@ -827,3 +827,5 @@ INFO:     127.0.0.1:60152 - "GET /api/v2/dags/two_task_dag/dagRuns/~/hitlDetails
 INFO:     127.0.0.1:52642 - "GET /ui/dags/two_task_dag/latest_run HTTP/1.1" 200 OK
 INFO:     127.0.0.1:60176 - "GET /api/v2/dags/two_task_dag/dagRuns/~/hitlDetails HTTP/1.1" 200 OK
 INFO:     127.0.0.1:60156 - "GET /ui/dags/two_task_dag/latest_run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39770 - "GET /ui/dags/two_task_dag/latest_run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39784 - "GET /api/v2/dags/two_task_dag/dagRuns/~/hitlDetails HTTP/1.1" 200 OK
