@@ -18,3 +18,10 @@
 2025-12-07 12:37:45,351 INFO - Loaded executor: :LocalExecutor:
 2025-12-07 12:37:45,714 INFO - Worker starting up pid=73801
 2025-12-07 12:37:45,723 INFO - Worker starting up pid=73800
+2025-12-07 13:07:45,395 INFO - checking for stale bundle versions locally
+2025-12-07 13:37:45,401 INFO - checking for stale bundle versions locally
+2025-12-07 14:07:45,419 INFO - checking for stale bundle versions locally
+2025-12-07 14:45:01,994 INFO - Starting log server on http://[::]:8793
+2025-12-07 14:45:02,061 INFO - Loaded executor: :LocalExecutor:
+2025-12-07 14:45:21,315 INFO - Worker starting up pid=1179
+2025-12-07 14:45:21,322 INFO - Worker starting up pid=1180

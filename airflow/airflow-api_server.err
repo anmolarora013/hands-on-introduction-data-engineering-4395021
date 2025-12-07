@@ -1,4 +1,4 @@
-[2m2025-12-07T12:37:41.023929Z[0m [[32m[1minfo     [0m] [1mRunning the uvicorn with:
+[2m2025-12-07T14:44:57.395066Z[0m [[32m[1minfo     [0m] [1mRunning the uvicorn with:
 Apps: all
 Workers: 1
 Host: 0.0.0.0:8080
@@ -8,7 +8,7 @@ Logfiles: -
 [1;33m/home/vscode/.local/lib/python3.10/site-packages/airflow/api_fastapi/execution_api/routes/[0m[1;33m__init__.py[0m[1;33m:[0m[1;33m23[0m[1;33m DeprecationWarning[0m[33m: [0m[33m'HTTP_422_UNPROCESSABLE_ENTITY'[0m[33m is deprecated. Use [0m[33m'HTTP_422_UNPROCESSABLE_CONTENT'[0m[33m instead.[0m
 [1;33m/home/vscode/.local/lib/python3.10/site-packages/flask_limiter/[0m[1;33mextension.py[0m[1;33m:[0m[1;33m324[0m[1;33m UserWarning[0m[33m: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: [0m[4;33mhttps://flask-limiter.readthedocs.io#configuring-a-storage-backend[0m[33m for documentation about configuring the storage backend.[0m
 [1;33m/home/vscode/.local/lib/python3.10/site-packages/airflow/api_fastapi/core_api/routes/public/[0m[1;33m__init__.py[0m[1;33m:[0m[1;33m36[0m[1;33m DeprecationWarning[0m[33m: [0m[33m'HTTP_422_UNPROCESSABLE_ENTITY'[0m[33m is deprecated. Use [0m[33m'HTTP_422_UNPROCESSABLE_CONTENT'[0m[33m instead.[0m
-INFO:     Started server process [73718]
+INFO:     Started server process [982]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
