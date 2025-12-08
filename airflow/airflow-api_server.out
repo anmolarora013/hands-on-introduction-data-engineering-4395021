@@ -1,209 +1,341 @@
-INFO:     127.0.0.1:56252 - "GET /dags/transform_dag/runs/manual__2025-12-07T13%3A59%3A00%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56262 - "GET /static/assets/index-C3zHQ3xU.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:56252 - "GET /static/i18n/locales/en/browse.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:56262 - "GET /static/i18n/locales/en/components.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:56270 - "GET /ui/config HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56286 - "GET /static/i18n/locales/en/hitl.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:56294 - "GET /static/i18n/locales/en/common.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:56304 - "GET /static/i18n/locales/en/admin.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:56318 - "GET /static/i18n/locales/en/dashboard.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:51356 - "GET /static/i18n/locales/en/dags.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:51362 - "GET /static/i18n/locales/en/assets.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:51370 - "GET /static/pin_32.png HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:51370 - "GET /static/i18n/locales/en/dag.json HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:56294 - "GET /ui/auth/menus HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56318 - "GET /api/v2/version HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51356 - "GET /api/v2/plugins HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51374 - "GET /api/v2/dags/transform_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56304 - "GET /api/v2/dags/transform_dag/details HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56262 - "GET /ui/grid/runs/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51390 - "GET /api/v2/dagWarnings?dag_id=transform_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51362 - "GET /ui/backfills?dag_id=transform_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56252 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T13%3A59%3A00%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56286 - "GET /ui/grid/structure/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51402 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T13%3A59%3A00%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51370 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T13%3A59%3A00%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56286 - "GET /ui/structure/structure_data?dag_id=transform_dag&external_dependencies=false&version_number=1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51362 - "GET /ui/grid/ti_summaries/transform_dag/manual__2025-12-07T13%3A58%3A00%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56262 - "GET /ui/structure/structure_data?dag_id=transform_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56252 - "GET /ui/grid/ti_summaries/transform_dag/manual__2025-12-07T13%3A59%3A00%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51402 - "POST /api/v2/dags/transform_dag/dagRuns HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56304 - "GET /ui/grid/runs/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51362 - "GET /ui/grid/ti_summaries/transform_dag/manual__2025-12-07T14%3A45%3A20%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56252 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56286 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56262 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
-2025-12-07T14:45:23.465798Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019af946-3a7d-7896-a48d-c48bdc4732a7
-2025-12-07T14:45:23.467778Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019af946-3a7d-7896-a48d-c48bdc4732a7
-INFO:     127.0.0.1:51410 - "PATCH /execution/task-instances/019af946-3a7d-7896-a48d-c48bdc4732a7/run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51410 - "PUT /execution/task-instances/019af946-3a7d-7896-a48d-c48bdc4732a7/heartbeat HTTP/1.1" 204 No Content
-2025-12-07T14:45:23.746409Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019af946-3a7d-7896-a48d-c48bdc4732a7
-INFO:     127.0.0.1:51410 - "PUT /execution/task-instances/019af946-3a7d-7896-a48d-c48bdc4732a7/rtif HTTP/1.1" 201 Created
-2025-12-07T14:45:23.864775Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019af946-3a7d-7896-a48d-c48bdc4732a7
-INFO:     127.0.0.1:51374 - "GET /ui/grid/runs/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51410 - "PATCH /execution/task-instances/019af946-3a7d-7896-a48d-c48bdc4732a7/state HTTP/1.1" 204 No Content
-INFO:     127.0.0.1:51390 - "GET /ui/grid/structure/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56304 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51402 - "GET /ui/grid/ti_summaries/transform_dag/manual__2025-12-07T14%3A45%3A20%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56252 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51362 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56262 - "GET /ui/grid/runs/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56286 - "GET /ui/grid/structure/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51374 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51390 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /dags/transform_dag/runs/manual__2025-12-07T14%3A45%3A20%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /ui/config HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /ui/backfills?dag_id=transform_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /ui/grid/structure/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /api/v2/dags/transform_dag/details HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50006 - "GET /api/v2/version HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50018 - "GET /ui/auth/menus HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49944 - "GET /api/v2/plugins HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /ui/structure/structure_data?dag_id=transform_dag&external_dependencies=false&version_number=1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /api/v2/dags/transform_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /api/v2/dagWarnings?dag_id=transform_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49990 - "GET /ui/grid/runs/transform_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49986 - "GET /api/v2/dags/transform_dag/dagRuns/manual__2025-12-07T14%3A45%3A20%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /ui/structure/structure_data?dag_id=transform_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /ui/grid/ti_summaries/transform_dag/manual__2025-12-07T13%3A59%3A00%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49990 - "GET /ui/grid/ti_summaries/transform_dag/manual__2025-12-07T14%3A45%3A20%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49986 - "GET /ui/grid/ti_summaries/transform_dag/manual__2025-12-07T13%3A58%3A00%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /api/v2/importErrors?limit=1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /api/v2/dagTags?limit=10&offset=0&order_by=name&tag_name_pattern= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /static/assets/FailedLogs-CkpywYVf.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:50036 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49986 - "GET /api/v2/dags/load_dag/details HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /ui/backfills?dag_id=load_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /api/v2/dags/load_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50032 - "GET /api/v2/dagWarnings?dag_id=load_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /ui/grid/runs/load_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /ui/grid/structure/load_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /api/v2/assets/events?limit=10&order_by=-timestamp&source_dag_id=load_dag&timestamp_gte=2025-12-06T14%3A58%3A18.329Z&timestamp_lte=2025-12-07T14%3A58%3A18.329Z HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49990 - "GET /api/v2/dags/load_dag/dagRuns?limit=10&run_after_gte=2025-12-06T14%3A58%3A18.329Z&run_after_lte=2025-12-07T14%3A58%3A18.329Z&state=failed HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /api/v2/dags/load_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /api/v2/dags/load_dag/dagRuns/~/hitlDetails?state=deferred&response_received=false HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50040 - "GET /api/v2/dags/load_dag/dagRuns/~/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /api/v2/dags/load_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-06T14%3A58%3A18.329Z&run_after_lte=2025-12-07T14%3A58%3A18.329Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /ui/structure/structure_data?dag_id=load_dag&external_dependencies=false&version_number=1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /api/v2/dags/load_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49990 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /api/v2/dags/load_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /ui/dags/load_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "PATCH /api/v2/dags/load_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "POST /api/v2/dags/load_dag/dagRuns HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /api/v2/dags/load_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /api/v2/dags/load_dag/details HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /ui/grid/runs/load_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49990 - "GET /api/v2/dags/load_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-06T14%3A58%3A18.329Z&run_after_lte=2025-12-07T14%3A58%3A18.329Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /api/v2/dags/load_dag/dagRuns?limit=10&run_after_gte=2025-12-06T14%3A58%3A18.329Z&run_after_lte=2025-12-07T14%3A58%3A18.329Z&state=failed HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /api/v2/dags/load_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /api/v2/dags/load_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-06T14%3A58%3A18.329Z&run_after_lte=2025-12-07T14%3A58%3A18.329Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /api/v2/dags/load_dag/dagRuns?limit=10&run_after_gte=2025-12-06T14%3A58%3A18.329Z&run_after_lte=2025-12-07T14%3A58%3A18.329Z&state=failed HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /api/v2/dags/load_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /ui/grid/ti_summaries/load_dag/manual__2025-12-07T14%3A59%3A27%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49990 - "GET /ui/structure/structure_data?dag_id=load_dag HTTP/1.1" 200 OK
-2025-12-07T14:59:29.118799Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019af953-2855-79a1-b6e7-b93514a38de8
-2025-12-07T14:59:29.120114Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019af953-2855-79a1-b6e7-b93514a38de8
-INFO:     127.0.0.1:38334 - "PATCH /execution/task-instances/019af953-2855-79a1-b6e7-b93514a38de8/run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:38334 - "PUT /execution/task-instances/019af953-2855-79a1-b6e7-b93514a38de8/heartbeat HTTP/1.1" 204 No Content
-2025-12-07T14:59:29.166840Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019af953-2855-79a1-b6e7-b93514a38de8
-INFO:     127.0.0.1:38334 - "PUT /execution/task-instances/019af953-2855-79a1-b6e7-b93514a38de8/rtif HTTP/1.1" 201 Created
-2025-12-07T14:59:29.225123Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=failed rows_affected=1 ti_id=019af953-2855-79a1-b6e7-b93514a38de8
-INFO:     127.0.0.1:38334 - "PATCH /execution/task-instances/019af953-2855-79a1-b6e7-b93514a38de8/state HTTP/1.1" 204 No Content
-INFO:     127.0.0.1:49956 - "GET /ui/grid/runs/load_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /ui/grid/structure/load_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /ui/grid/ti_summaries/load_dag/manual__2025-12-07T14%3A59%3A27%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /api/v2/dags/load_dag/dagVersions?order_by=-version_number HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /api/v2/dags/load_dag/dagVersions/1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /api/v2/dagSources/load_dag?version_number=1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49990 - "GET /api/v2/dags/load_dag/tasks/load_task HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00/taskInstances/load_task/-1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00/hitlDetails?task_id=load_task HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T14%3A59%3A27%2B00%3A00/taskInstances/load_task/logs/1?map_index=-1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "POST /api/v2/dags/load_dag/dagRuns HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49936 - "GET /ui/grid/runs/load_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-2025-12-07T15:00:28.197698Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019af954-12cf-7192-a470-39d26d3b906f
-2025-12-07T15:00:28.198967Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019af954-12cf-7192-a470-39d26d3b906f
-INFO:     127.0.0.1:51558 - "PATCH /execution/task-instances/019af954-12cf-7192-a470-39d26d3b906f/run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51558 - "PUT /execution/task-instances/019af954-12cf-7192-a470-39d26d3b906f/heartbeat HTTP/1.1" 204 No Content
-2025-12-07T15:00:28.232918Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019af954-12cf-7192-a470-39d26d3b906f
-INFO:     127.0.0.1:51558 - "PUT /execution/task-instances/019af954-12cf-7192-a470-39d26d3b906f/rtif HTTP/1.1" 201 Created
-INFO:     127.0.0.1:35780 - "GET /ui/grid/ti_summaries/load_dag/manual__2025-12-07T15%3A00%3A26%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35796 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49990 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51558 - "POST /execution/xcoms/load_dag/manual__2025-12-07T15%3A00%3A26%2B00%3A00/load_task/return_value HTTP/1.1" 201 Created
-2025-12-07T15:00:28.529102Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019af954-12cf-7192-a470-39d26d3b906f
-INFO:     127.0.0.1:51558 - "PATCH /execution/task-instances/019af954-12cf-7192-a470-39d26d3b906f/state HTTP/1.1" 204 No Content
-INFO:     127.0.0.1:49956 - "GET /ui/structure/structure_data?dag_id=load_dag&external_dependencies=false&version_number=2 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49968 - "GET /ui/grid/runs/load_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35780 - "GET /ui/grid/structure/load_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /ui/grid/ti_summaries/load_dag/manual__2025-12-07T15%3A00%3A26%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49972 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50044 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00/taskInstances/load_task/-1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49956 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00/hitlDetails?task_id=load_task HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49954 - "GET /api/v2/dags/load_dag/dagRuns/manual__2025-12-07T15%3A00%3A26%2B00%3A00/taskInstances/load_task/logs/1?map_index=-1 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51220 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51220 - "GET /api/v2/dags/two_task_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-06T15%3A02%3A18.109Z&run_after_lte=2025-12-07T15%3A02%3A18.109Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59904 - "GET /api/v2/dags/two_task_dag/details HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59976 - "GET /api/v2/dags/two_task_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59956 - "GET /ui/dags/two_task_dag/latest_run HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59880 - "GET /ui/backfills?dag_id=two_task_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59950 - "GET /api/v2/dagWarnings?dag_id=two_task_dag HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59944 - "GET /api/v2/assets/events?limit=10&order_by=-timestamp&source_dag_id=two_task_dag&timestamp_gte=2025-12-06T15%3A02%3A18.109Z&timestamp_lte=2025-12-07T15%3A02%3A18.109Z HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59932 - "GET /ui/grid/structure/two_task_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59890 - "GET /ui/grid/runs/two_task_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59924 - "GET /api/v2/dags/two_task_dag/dagRuns/~/hitlDetails?state=deferred&response_received=false HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59926 - "GET /api/v2/dags/two_task_dag/dagRuns?limit=10&run_after_gte=2025-12-06T15%3A02%3A18.109Z&run_after_lte=2025-12-07T15%3A02%3A18.109Z&state=failed HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59918 - "GET /api/v2/dags/two_task_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59972 - "GET /api/v2/dags/two_task_dag/dagRuns/~/hitlDetails HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59918 - "GET /ui/structure/structure_data?dag_id=two_task_dag&external_dependencies=false&version_number=2 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51220 - "GET /api/v2/dags/two_task_dag/details HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59926 - "GET /ui/grid/ti_summaries/two_task_dag/manual__2025-12-07T12%3A28%3A37%2B00%3A00 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59924 - "GET /api/v2/dags/two_task_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-06T15%3A02%3A18.109Z&run_after_lte=2025-12-07T15%3A02%3A18.109Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59944 - "GET /api/v2/dags/two_task_dag/details HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59972 - "GET /api/v2/assets/events?limit=10&order_by=-timestamp&source_dag_id=two_task_dag&timestamp_gte=2025-12-06T15%3A02%3A19.501Z&timestamp_lte=2025-12-07T15%3A02%3A19.501Z HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59950 - "GET /api/v2/dags/two_task_dag/dagVersions?order_by=-version_number HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59890 - "GET /api/v2/dags/two_task_dag/dagRuns?limit=10&run_after_gte=2025-12-06T15%3A02%3A19.501Z&run_after_lte=2025-12-07T15%3A02%3A19.501Z&state=failed HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59976 - "GET /api/v2/dags/two_task_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-06T15%3A02%3A19.501Z&run_after_lte=2025-12-07T15%3A02%3A19.501Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51220 - "GET /api/v2/dags/two_task_dag/tasks/bash_task_0 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59918 - "GET /api/v2/dags/~/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59976 - "GET /ui/grid/structure/two_task_dag?limit=1&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59924 - "GET /api/v2/dags/~/dagRuns/~/hitlDetails?task_id=bash_task_0&state=deferred&response_received=false HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59950 - "GET /api/v2/dags/two_task_dag/dagRuns/~/hitlDetails?task_id=bash_task_0 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59944 - "GET /api/v2/dags/two_task_dag/dagRuns/~/taskInstances?task_id=bash_task_0&limit=14&order_by=-run_after HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59926 - "GET /api/v2/dags/two_task_dag/dagRuns/~/taskInstances?task_id=bash_task_0&run_after_gte=2025-12-06T15%3A02%3A20.734Z&run_after_lte=2025-12-07T15%3A02%3A20.734Z&state=failed&limit=14 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59890 - "GET /api/v2/dags/~/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59950 - "GET /api/v2/dags/~/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44464 - "GET /api/v2/dags/~/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33822 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "GET /static/assets/index-C3zHQ3xU.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33822 - "GET /static/i18n/locales/en/hitl.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "GET /static/i18n/locales/en/dashboard.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33838 - "GET /static/i18n/locales/en/components.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33842 - "GET /static/i18n/locales/en/browse.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33864 - "GET /static/i18n/locales/en/assets.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /static/pin_32.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33866 - "GET /static/i18n/locales/en/admin.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33876 - "GET /ui/config HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:33878 - "GET /static/i18n/locales/en/common.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33888 - "GET /static/i18n/locales/en/dags.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /api/v2/auth/login?next=https%3A%2F%2Ffictional-space-palm-tree-qxj966q9rj24pxq-8080.app.github.dev%2F HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:33834 - "GET /ui/auth/menus HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:33888 - "GET /ui/config HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:33866 - "GET /api/v2/version HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33842 - "GET /api/v2/plugins HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:33864 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35144 - "GET /api/v2/auth/login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:35154 - "GET /auth/login/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33864 - "GET /auth/static/appbuilder/css/bootstrap.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33838 - "GET /auth/static/appbuilder/css/fontawesome/fontawesome.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35154 - "GET /auth/static/appbuilder/css/select2/select2.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35144 - "GET /auth/static/appbuilder/css/bootstrap-datepicker/bootstrap-datepicker3.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33876 - "GET /auth/static/appbuilder/css/fontawesome/solid.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "GET /auth/static/appbuilder/css/fontawesome/v4-shims.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /auth/static/appbuilder/js/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /auth/static/appbuilder/css/fontawesome/brands.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35174 - "GET /auth/static/dist/jquery-ui.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33822 - "GET /auth/static/appbuilder/css/fontawesome/regular.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35170 - "GET /auth/static/appbuilder/css/flags/flags16.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35154 - "GET /auth/static/appbuilder/js/jquery-latest.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "GET /auth/static/dist/loadingDots.76f4332c0a932c3dc08f.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35192 - "GET /auth/static/dist/moment.5b85b4f6be2fe9c405ac.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35246 - "GET /auth/static/dist/jquery-ui.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "GET /auth/static/dist/materialIcons.ad07a489b2f0fc1a96bf.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35180 - "GET /auth/static/dist/airflowDefaultTheme.ef6fc04c9b6920cd75c9.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35202 - "GET /auth/static/appbuilder/js/ab_actions.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35314 - "GET /auth/static/dist/main.bc1f701c3d133e2a3bab.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35326 - "GET /auth/static/dist/flash.eaaf777ec1b3628cf7be.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35336 - "GET /auth/static/appbuilder/css/select2/select2-bootstrap.min.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33838 - "GET /auth/static/appbuilder/css/ab.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /auth/static/appbuilder/js/select2/select2.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35226 - "GET /auth/static/dist/main.bc1f701c3d133e2a3bab.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35176 - "GET /auth/static/appbuilder/js/ab_filters.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "GET /auth/static/appbuilder/js/bootstrap.min.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "GET /auth/static/appbuilder/js/ab.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33838 - "GET /auth/static/appbuilder/css/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /auth/static/pin_32.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "POST /auth/login/ HTTP/1.1" 302 Found
+INFO:     127.0.0.1:35192 - "GET /auth/ HTTP/1.1" 302 Found
+INFO:     127.0.0.1:35246 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "GET /ui/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35226 - "GET /ui/auth/menus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "GET /api/v2/version HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33838 - "GET /api/v2/plugins/importErrors HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /static/i18n/locales/en/dag.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35192 - "GET /api/v2/plugins HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /api/v2/monitor/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35176 - "GET /api/v2/importErrors?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35154 - "GET /api/v2/assets/events?limit=6&order_by=-timestamp&timestamp_gte=2025-12-07T05%3A50%3A56.862Z&timestamp_lte=2025-12-08T05%3A50%3A56.862Z HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "GET /ui/dashboard/dag_stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35174 - "GET /ui/dashboard/historical_metrics_data?start_date=2025-12-07T05%3A50%3A56.862Z HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "GET /ui/dags?limit=10&is_favorite=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35246 - "GET /api/v2/dags/~/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35326 - "GET /api/v2/dags/~/dagRuns/~/hitlDetails?state=deferred&response_received=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "GET /api/v2/pools HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /api/v2/dagTags?limit=10&offset=0&order_by=name&tag_name_pattern= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35176 - "GET /static/assets/FailedLogs-CkpywYVf.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /ui/dags/basic_etl_dag/latest_run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33838 - "GET /api/v2/dags/basic_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35180 - "GET /api/v2/dags/basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "GET /ui/backfills?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "GET /api/v2/dagWarnings?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35202 - "GET /api/v2/assets/events?limit=10&order_by=-timestamp&source_dag_id=basic_etl_dag&timestamp_gte=2025-12-07T05%3A51%3A05.363Z&timestamp_lte=2025-12-08T05%3A51%3A05.363Z HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "GET /ui/grid/structure/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35246 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/hitlDetails?state=deferred&response_received=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35326 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T05%3A51%3A05.363Z&run_after_lte=2025-12-08T05%3A51%3A05.363Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35170 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=10&run_after_gte=2025-12-07T05%3A51%3A05.363Z&run_after_lte=2025-12-08T05%3A51%3A05.363Z&state=failed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35174 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag&external_dependencies=false&version_number=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35246 - "GET /ui/dags/basic_etl_dag/latest_run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "PATCH /api/v2/dags/basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35202 - "POST /api/v2/dags/basic_etl_dag/dagRuns HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /api/v2/dags/basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /api/v2/dags/basic_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35326 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35174 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=10&run_after_gte=2025-12-07T05%3A51%3A05.363Z&run_after_lte=2025-12-08T05%3A51%3A05.363Z&state=failed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35246 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T05%3A51%3A05.363Z&run_after_lte=2025-12-08T05%3A51%3A05.363Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T05%3A51%3A05.363Z&run_after_lte=2025-12-08T05%3A51%3A05.363Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35202 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35170 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=10&run_after_gte=2025-12-07T05%3A51%3A05.363Z&run_after_lte=2025-12-08T05%3A51%3A05.363Z&state=failed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T05%3A51%3A09%2B00%3A00 HTTP/1.1" 200 OK
+2025-12-08T05:51:13.631755Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc83-8d1e-72f1-8da5-13b6aeadc56f
+2025-12-08T05:51:13.638382Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc83-8d1e-72f1-8da5-13b6aeadc56f
+INFO:     127.0.0.1:38706 - "PATCH /execution/task-instances/019afc83-8d1e-72f1-8da5-13b6aeadc56f/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35174 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35326 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38706 - "PUT /execution/task-instances/019afc83-8d1e-72f1-8da5-13b6aeadc56f/heartbeat HTTP/1.1" 204 No Content
+2025-12-08T05:51:14.299281Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc83-8d1e-72f1-8da5-13b6aeadc56f
+INFO:     127.0.0.1:38706 - "PUT /execution/task-instances/019afc83-8d1e-72f1-8da5-13b6aeadc56f/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:35202 - "GET /ui/grid/structure/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T05%3A51%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35170 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38706 - "POST /execution/xcoms/basic_etl_dag/manual__2025-12-08T05%3A51%3A09%2B00%3A00/extract_task/return_value HTTP/1.1" 201 Created
+2025-12-08T05:51:16.389965Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc83-8d1e-72f1-8da5-13b6aeadc56f
+INFO:     127.0.0.1:38706 - "PATCH /execution/task-instances/019afc83-8d1e-72f1-8da5-13b6aeadc56f/state HTTP/1.1" 204 No Content
+2025-12-08T05:51:16.661738Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc83-8d1f-7dba-b7b3-9a025f5b54f7
+2025-12-08T05:51:16.663077Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc83-8d1f-7dba-b7b3-9a025f5b54f7
+INFO:     127.0.0.1:38710 - "PATCH /execution/task-instances/019afc83-8d1f-7dba-b7b3-9a025f5b54f7/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38710 - "PUT /execution/task-instances/019afc83-8d1f-7dba-b7b3-9a025f5b54f7/heartbeat HTTP/1.1" 204 No Content
+2025-12-08T05:51:16.927341Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc83-8d1f-7dba-b7b3-9a025f5b54f7
+INFO:     127.0.0.1:38710 - "PUT /execution/task-instances/019afc83-8d1f-7dba-b7b3-9a025f5b54f7/rtif HTTP/1.1" 201 Created
+2025-12-08T05:51:16.993464Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc83-8d1f-7dba-b7b3-9a025f5b54f7
+INFO:     127.0.0.1:38710 - "PATCH /execution/task-instances/019afc83-8d1f-7dba-b7b3-9a025f5b54f7/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:35202 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+2025-12-08T05:51:17.477719Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc83-8d20-72af-87e0-3b5f2a777bbe
+2025-12-08T05:51:17.482513Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc83-8d20-72af-87e0-3b5f2a777bbe
+INFO:     127.0.0.1:38720 - "PATCH /execution/task-instances/019afc83-8d20-72af-87e0-3b5f2a777bbe/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38720 - "PUT /execution/task-instances/019afc83-8d20-72af-87e0-3b5f2a777bbe/heartbeat HTTP/1.1" 204 No Content
+2025-12-08T05:51:17.766641Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc83-8d20-72af-87e0-3b5f2a777bbe
+INFO:     127.0.0.1:38720 - "PUT /execution/task-instances/019afc83-8d20-72af-87e0-3b5f2a777bbe/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:35282 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T05%3A51%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35170 - "GET /ui/grid/structure/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38720 - "POST /execution/xcoms/basic_etl_dag/manual__2025-12-08T05%3A51%3A09%2B00%3A00/load_task/return_value HTTP/1.1" 201 Created
+2025-12-08T05:51:18.019929Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc83-8d20-72af-87e0-3b5f2a777bbe
+INFO:     127.0.0.1:38720 - "PATCH /execution/task-instances/019afc83-8d20-72af-87e0-3b5f2a777bbe/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:35170 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35212 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33848 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T05%3A51%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35174 - "GET /ui/grid/structure/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35246 - "GET /api/v2/eventLogs?limit=50&offset=0&order_by=-when&dag_id=basic_etl_dag&run_id=manual__2025-12-08T05%3A51%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33878 - "GET /api/v2/dags/basic_etl_dag/dagVersions?order_by=-version_number HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35174 - "GET /api/v2/dags/basic_etl_dag/tasks/extract_task HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35246 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/taskInstances/extract_task/-1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35326 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/hitlDetails?task_id=extract_task HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35170 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/taskInstances/extract_task/logs/1?map_index=-1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35170 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/taskInstances/transform_task/-1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35326 - "GET /api/v2/dags/basic_etl_dag/tasks/transform_task HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35202 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/hitlDetails?task_id=transform_task HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35282 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A51%3A09%2B00%3A00/taskInstances/transform_task/logs/1?map_index=-1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35170 - "GET /api/v2/assets/events?limit=6&order_by=-timestamp&timestamp_gte=2025-12-07T05%3A53%3A03.334Z&timestamp_lte=2025-12-08T05%3A53%3A03.334Z HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49564 - "GET /ui/dashboard/historical_metrics_data?start_date=2025-12-07T05%3A53%3A03.334Z HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35326 - "GET /ui/dags?limit=10&is_favorite=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56862 - "GET /api/v2/dags/~/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56874 - "GET /api/v2/dagTags?limit=10&offset=0&order_by=name&tag_name_pattern= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56892 - "GET /ui/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56876 - "GET /api/v2/importErrors?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56874 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag&external_dependencies=false&version_number=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56862 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56876 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56928 - "GET /api/v2/plugins HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/hitlDetails?state=deferred&response_received=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56918 - "GET /ui/dags/basic_etl_dag/latest_run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56908 - "GET /api/v2/dags/basic_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56892 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T05%3A57%3A27.091Z&run_after_lte=2025-12-08T05%3A57%3A27.091Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/v2/assets/events?limit=10&order_by=-timestamp&source_dag_id=basic_etl_dag&timestamp_gte=2025-12-07T05%3A57%3A27.091Z&timestamp_lte=2025-12-08T05%3A57%3A27.091Z HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56942 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56876 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag&external_dependencies=false&version_number=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/v2/dags/basic_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56950 - "GET /ui/backfills?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T05%3A57%3A27.091Z&run_after_lte=2025-12-08T05%3A57%3A27.091Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56956 - "GET /api/v2/dagWarnings?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56982 - "GET /api/v2/dags/basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56992 - "GET /api/v2/dags/basic_etl_dag/dagVersions?order_by=-version_number HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57020 - "GET /api/v2/dags/basic_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56980 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56966 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=10&run_after_gte=2025-12-07T05%3A57%3A27.091Z&run_after_lte=2025-12-08T05%3A57%3A27.091Z&state=failed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57008 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56876 - "POST /api/v2/dags/basic_etl_dag/dagRuns HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56982 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T05%3A57%3A27.091Z&run_after_lte=2025-12-08T05%3A57%3A27.091Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57008 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=10&run_after_gte=2025-12-07T05%3A57%3A27.091Z&run_after_lte=2025-12-08T05%3A57%3A27.091Z&state=failed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56928 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A57%3A28%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56918 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T05%3A57%3A28%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56876 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A57%3A28%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56942 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A57%3A28%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56900 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+2025-12-08T05:57:30.462761Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc89-54b4-75b6-a6ad-462e45695e02
+2025-12-08T05:57:30.466618Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc89-54b4-75b6-a6ad-462e45695e02
+INFO:     127.0.0.1:42408 - "PATCH /execution/task-instances/019afc89-54b4-75b6-a6ad-462e45695e02/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42408 - "PUT /execution/task-instances/019afc89-54b4-75b6-a6ad-462e45695e02/heartbeat HTTP/1.1" 204 No Content
+2025-12-08T05:57:30.745287Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc89-54b4-75b6-a6ad-462e45695e02
+INFO:     127.0.0.1:42408 - "PUT /execution/task-instances/019afc89-54b4-75b6-a6ad-462e45695e02/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:42408 - "POST /execution/xcoms/basic_etl_dag/manual__2025-12-08T05%3A57%3A28%2B00%3A00/extract_task/return_value HTTP/1.1" 201 Created
+2025-12-08T05:57:31.993138Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc89-54b4-75b6-a6ad-462e45695e02
+INFO:     127.0.0.1:42408 - "PATCH /execution/task-instances/019afc89-54b4-75b6-a6ad-462e45695e02/state HTTP/1.1" 204 No Content
+2025-12-08T05:57:32.564106Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc89-54b5-770e-9ec3-622cd9eda978
+2025-12-08T05:57:32.566430Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc89-54b5-770e-9ec3-622cd9eda978
+INFO:     127.0.0.1:42416 - "PATCH /execution/task-instances/019afc89-54b5-770e-9ec3-622cd9eda978/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42416 - "PUT /execution/task-instances/019afc89-54b5-770e-9ec3-622cd9eda978/heartbeat HTTP/1.1" 204 No Content
+2025-12-08T05:57:32.856431Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc89-54b5-770e-9ec3-622cd9eda978
+INFO:     127.0.0.1:42416 - "PUT /execution/task-instances/019afc89-54b5-770e-9ec3-622cd9eda978/rtif HTTP/1.1" 201 Created
+2025-12-08T05:57:32.882643Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc89-54b5-770e-9ec3-622cd9eda978
+INFO:     127.0.0.1:42416 - "PATCH /execution/task-instances/019afc89-54b5-770e-9ec3-622cd9eda978/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56982 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57020 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A57%3A28%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56928 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T05%3A57%3A28%2B00%3A00 HTTP/1.1" 200 OK
+2025-12-08T05:57:33.657476Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc89-54b6-723b-bcce-6396d83d038c
+2025-12-08T05:57:33.661888Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc89-54b6-723b-bcce-6396d83d038c
+INFO:     127.0.0.1:42424 - "PATCH /execution/task-instances/019afc89-54b6-723b-bcce-6396d83d038c/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42424 - "PUT /execution/task-instances/019afc89-54b6-723b-bcce-6396d83d038c/heartbeat HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56942 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A57%3A28%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56876 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A57%3A28%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+2025-12-08T05:57:33.999048Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc89-54b6-723b-bcce-6396d83d038c
+INFO:     127.0.0.1:42424 - "PUT /execution/task-instances/019afc89-54b6-723b-bcce-6396d83d038c/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:42424 - "POST /execution/xcoms/basic_etl_dag/manual__2025-12-08T05%3A57%3A28%2B00%3A00/load_task/return_value HTTP/1.1" 201 Created
+2025-12-08T05:57:34.058562Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc89-54b6-723b-bcce-6396d83d038c
+INFO:     127.0.0.1:42424 - "PATCH /execution/task-instances/019afc89-54b6-723b-bcce-6396d83d038c/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:56940 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56982 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A57%3A28%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57020 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T05%3A57%3A28%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56928 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T05%3A57%3A28%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54488 - "GET /api/v2/dagTags?limit=10&offset=0&order_by=name&tag_name_pattern= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54496 - "GET /ui/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54518 - "GET /api/v2/importErrors?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54506 - "GET /ui/dags?dag_runs_limit=14&limit=50&offset=0&exclude_stale=true&order_by=dag_display_name HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54518 - "GET /api/v2/assets/events?limit=10&order_by=-timestamp&source_dag_id=basic_etl_dag&timestamp_gte=2025-12-07T06%3A04%3A11.907Z&timestamp_lte=2025-12-08T06%3A04%3A11.907Z HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54488 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54496 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T06%3A04%3A11.907Z&run_after_lte=2025-12-08T06%3A04%3A11.907Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54506 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=10&run_after_gte=2025-12-07T06%3A04%3A11.907Z&run_after_lte=2025-12-08T06%3A04%3A11.907Z&state=failed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54534 - "GET /api/v2/plugins HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54488 - "GET /ui/dags/basic_etl_dag/latest_run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54518 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=10&run_after_gte=2025-12-07T06%3A04%3A11.907Z&run_after_lte=2025-12-08T06%3A04%3A11.907Z&state=failed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54548 - "GET /ui/backfills?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54554 - "GET /api/v2/dags/basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54594 - "GET /api/v2/dags/basic_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54592 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag&external_dependencies=false&version_number=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /api/v2/dagWarnings?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54580 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54562 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54608 - "GET /api/v2/dags/basic_etl_dag/dagVersions?order_by=-version_number HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54598 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/hitlDetails?state=deferred&response_received=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54574 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T06%3A04%3A11.907Z&run_after_lte=2025-12-08T06%3A04%3A11.907Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54488 - "GET /api/v2/dags/basic_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54518 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54574 - "GET /api/v2/dags/basic_etl_dag/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54562 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag&external_dependencies=false&version_number=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "POST /api/v2/dags/basic_etl_dag/dagRuns HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54598 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54518 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=1&state=running&state=queued HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54574 - "GET /api/v2/dags/basic_etl_dag/dagRuns?limit=10&run_after_gte=2025-12-07T06%3A04%3A11.907Z&run_after_lte=2025-12-08T06%3A04%3A11.907Z&state=failed HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54562 - "GET /api/v2/dags/basic_etl_dag/dagRuns/~/taskInstances?run_after_gte=2025-12-07T06%3A04%3A11.907Z&run_after_lte=2025-12-08T06%3A04%3A11.907Z&state=failed&order_by=-run_after HTTP/1.1" 200 OK
+2025-12-08T06:04:14.734806Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc8f-80cf-7ac2-9615-4d19ec736196
+2025-12-08T06:04:14.738072Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc8f-80cf-7ac2-9615-4d19ec736196
+INFO:     127.0.0.1:54624 - "PATCH /execution/task-instances/019afc8f-80cf-7ac2-9615-4d19ec736196/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54624 - "PUT /execution/task-instances/019afc8f-80cf-7ac2-9615-4d19ec736196/heartbeat HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54534 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T06%3A04%3A13%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54608 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54488 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54518 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag HTTP/1.1" 200 OK
+2025-12-08T06:04:15.118983Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc8f-80cf-7ac2-9615-4d19ec736196
+INFO:     127.0.0.1:54624 - "PUT /execution/task-instances/019afc8f-80cf-7ac2-9615-4d19ec736196/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:54624 - "POST /execution/xcoms/basic_etl_dag/manual__2025-12-08T06%3A04%3A13%2B00%3A00/extract_task/return_value HTTP/1.1" 201 Created
+2025-12-08T06:04:16.455068Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc8f-80cf-7ac2-9615-4d19ec736196
+INFO:     127.0.0.1:54624 - "PATCH /execution/task-instances/019afc8f-80cf-7ac2-9615-4d19ec736196/state HTTP/1.1" 204 No Content
+2025-12-08T06:04:16.833186Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc8f-80d0-7a83-bd3f-2a5e9bf5c2fc
+2025-12-08T06:04:16.834584Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc8f-80d0-7a83-bd3f-2a5e9bf5c2fc
+INFO:     127.0.0.1:54628 - "PATCH /execution/task-instances/019afc8f-80d0-7a83-bd3f-2a5e9bf5c2fc/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54628 - "PUT /execution/task-instances/019afc8f-80d0-7a83-bd3f-2a5e9bf5c2fc/heartbeat HTTP/1.1" 204 No Content
+2025-12-08T06:04:17.144661Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc8f-80d0-7a83-bd3f-2a5e9bf5c2fc
+INFO:     127.0.0.1:54628 - "PUT /execution/task-instances/019afc8f-80d0-7a83-bd3f-2a5e9bf5c2fc/rtif HTTP/1.1" 201 Created
+2025-12-08T06:04:17.171779Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc8f-80d0-7a83-bd3f-2a5e9bf5c2fc
+INFO:     127.0.0.1:54628 - "PATCH /execution/task-instances/019afc8f-80d0-7a83-bd3f-2a5e9bf5c2fc/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54598 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+2025-12-08T06:04:17.896901Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc8f-80d1-7c5e-9b03-b070a8bd2b1e
+2025-12-08T06:04:17.898376Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc8f-80d1-7c5e-9b03-b070a8bd2b1e
+INFO:     127.0.0.1:54642 - "PATCH /execution/task-instances/019afc8f-80d1-7c5e-9b03-b070a8bd2b1e/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54608 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54642 - "PUT /execution/task-instances/019afc8f-80d1-7c5e-9b03-b070a8bd2b1e/heartbeat HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54554 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T06%3A04%3A13%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54534 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54488 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+2025-12-08T06:04:18.424008Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc8f-80d1-7c5e-9b03-b070a8bd2b1e
+INFO:     127.0.0.1:54642 - "PUT /execution/task-instances/019afc8f-80d1-7c5e-9b03-b070a8bd2b1e/rtif HTTP/1.1" 201 Created
+2025-12-08T06:04:18.465503Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=failed rows_affected=1 ti_id=019afc8f-80d1-7c5e-9b03-b070a8bd2b1e
+INFO:     127.0.0.1:54642 - "PATCH /execution/task-instances/019afc8f-80d1-7c5e-9b03-b070a8bd2b1e/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54518 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54574 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54562 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T06%3A04%3A13%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54598 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54608 - "GET /api/v2/dags/basic_etl_dag/tasks/load_task HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54534 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00/taskInstances/load_task/-1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54488 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00/hitlDetails?task_id=load_task HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54542 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A04%3A13%2B00%3A00/taskInstances/load_task/logs/1?map_index=-1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33138 - "POST /api/v2/dags/basic_etl_dag/dagRuns HTTP/1.1" 200 OK
+2025-12-08T06:07:10.737885Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc92-3088-7781-a9f8-6ab0e3ebeea7
+2025-12-08T06:07:10.741425Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc92-3088-7781-a9f8-6ab0e3ebeea7
+INFO:     127.0.0.1:33148 - "PATCH /execution/task-instances/019afc92-3088-7781-a9f8-6ab0e3ebeea7/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33148 - "PUT /execution/task-instances/019afc92-3088-7781-a9f8-6ab0e3ebeea7/heartbeat HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:33164 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+2025-12-08T06:07:11.061454Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc92-3088-7781-a9f8-6ab0e3ebeea7
+INFO:     127.0.0.1:33148 - "PUT /execution/task-instances/019afc92-3088-7781-a9f8-6ab0e3ebeea7/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:33170 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T06%3A07%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33186 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A07%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33204 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A07%3A09%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33190 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A07%3A09%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33218 - "GET /ui/structure/structure_data?dag_id=basic_etl_dag&external_dependencies=false&version_number=4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33148 - "POST /execution/xcoms/basic_etl_dag/manual__2025-12-08T06%3A07%3A09%2B00%3A00/extract_task/return_value HTTP/1.1" 201 Created
+2025-12-08T06:07:12.292934Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc92-3088-7781-a9f8-6ab0e3ebeea7
+INFO:     127.0.0.1:33148 - "PATCH /execution/task-instances/019afc92-3088-7781-a9f8-6ab0e3ebeea7/state HTTP/1.1" 204 No Content
+2025-12-08T06:07:12.825636Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc92-3089-7855-8faf-151ed84781a4
+2025-12-08T06:07:12.826996Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc92-3089-7855-8faf-151ed84781a4
+INFO:     127.0.0.1:33230 - "PATCH /execution/task-instances/019afc92-3089-7855-8faf-151ed84781a4/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33230 - "PUT /execution/task-instances/019afc92-3089-7855-8faf-151ed84781a4/heartbeat HTTP/1.1" 204 No Content
+2025-12-08T06:07:13.125624Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc92-3089-7855-8faf-151ed84781a4
+INFO:     127.0.0.1:33230 - "PUT /execution/task-instances/019afc92-3089-7855-8faf-151ed84781a4/rtif HTTP/1.1" 201 Created
+2025-12-08T06:07:13.161795Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc92-3089-7855-8faf-151ed84781a4
+INFO:     127.0.0.1:33230 - "PATCH /execution/task-instances/019afc92-3089-7855-8faf-151ed84781a4/state HTTP/1.1" 204 No Content
+2025-12-08T06:07:13.931936Z [info     ] Task started                   [airflow.api_fastapi.execution_api.routes.task_instances] hostname=codespaces-e017de loc=task_instances.py:199 previous_state=queued ti_id=019afc92-308a-7bee-b060-9d3105d3048b
+2025-12-08T06:07:13.933394Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:212 rows_affected=1 ti_id=019afc92-308a-7bee-b060-9d3105d3048b
+INFO:     127.0.0.1:33240 - "PATCH /execution/task-instances/019afc92-308a-7bee-b060-9d3105d3048b/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33240 - "PUT /execution/task-instances/019afc92-308a-7bee-b060-9d3105d3048b/heartbeat HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:33170 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+2025-12-08T06:07:14.227167Z [info     ] Updating RenderedTaskInstanceFields [airflow.api_fastapi.execution_api.routes.task_instances] field_count=3 loc=task_instances.py:687 ti_id=019afc92-308a-7bee-b060-9d3105d3048b
+INFO:     127.0.0.1:33240 - "PUT /execution/task-instances/019afc92-308a-7bee-b060-9d3105d3048b/rtif HTTP/1.1" 201 Created
+INFO:     127.0.0.1:33240 - "POST /execution/xcoms/basic_etl_dag/manual__2025-12-08T06%3A07%3A09%2B00%3A00/load_task/return_value HTTP/1.1" 201 Created
+2025-12-08T06:07:14.287435Z [info     ] Task instance state updated    [airflow.api_fastapi.execution_api.routes.task_instances] loc=task_instances.py:424 new_state=success rows_affected=1 ti_id=019afc92-308a-7bee-b060-9d3105d3048b
+INFO:     127.0.0.1:33240 - "PATCH /execution/task-instances/019afc92-308a-7bee-b060-9d3105d3048b/state HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:33190 - "GET /ui/grid/ti_summaries/basic_etl_dag/manual__2025-12-08T06%3A07%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33204 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A07%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33218 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A07%3A09%2B00%3A00/taskInstances?limit=50&offset=0&order_by=-start_date&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33254 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A07%3A09%2B00%3A00/hitlDetails HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33170 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A07%3A09%2B00%3A00 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33186 - "GET /ui/grid/runs/basic_etl_dag?limit=10&order_by=-run_after HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33190 - "GET /api/v2/dags/basic_etl_dag/dagRuns/manual__2025-12-08T06%3A07%3A09%2B00%3A00/hitlDetails HTTP/1.1" 200 OK

@@ -1,14 +1,10 @@
-[2m2025-12-07T14:45:01.997227Z[0m [[32m[1minfo     [0m] [1mStarting log server on http://[::]:8793[0m [[0m[1m[34mairflow.utils.serve_logs.core[0m][0m [36mloc[0m=[35mcore.py:50[0m
+[2m2025-12-08T05:49:27.174640Z[0m [[32m[1minfo     [0m] [1mStarting log server on http://[::]:8793[0m [[0m[1m[34mairflow.utils.serve_logs.core[0m][0m [36mloc[0m=[35mcore.py:50[0m
+[2m2025-12-08T05:49:27.183894Z[0m [[32m[1minfo     [0m] [1mLoaded executor: :LocalExecutor:[0m [[0m[1m[34mairflow.executors.executor_loader[0m][0m [36mloc[0m=[35mexecutor_loader.py:281[0m
 WARNING:  ASGI app factory detected. Using it, but please consider setting the --factory flag explicitly.
-INFO:     Started server process [1044]
+INFO:     Started server process [8508]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://:8793 (Press CTRL+C to quit)
-[2m2025-12-07T14:45:02.061911Z[0m [[32m[1minfo     [0m] [1mLoaded executor: :LocalExecutor:[0m [[0m[1m[34mairflow.executors.executor_loader[0m][0m [36mloc[0m=[35mexecutor_loader.py:281[0m
-[2m2025-12-07T14:45:21.315640Z[0m [[32m[1minfo     [0m] [1mWorker starting up pid=1179   [0m [[0m[1m[34mairflow.executors.local_executor.LocalExecutor[0m][0m [36mloc[0m=[35mlocal_executor.py:65[0m
-[2m2025-12-07T14:45:21.322550Z[0m [[32m[1minfo     [0m] [1mWorker starting up pid=1180   [0m [[0m[1m[34mairflow.executors.local_executor.LocalExecutor[0m][0m [36mloc[0m=[35mlocal_executor.py:65[0m
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [1044]
-Terminating on signal 15
+[2m2025-12-08T05:51:11.534987Z[0m [[32m[1minfo     [0m] [1mWorker starting up pid=9172   [0m [[0m[1m[34mairflow.executors.local_executor.LocalExecutor[0m][0m [36mloc[0m=[35mlocal_executor.py:65[0m
+[2m2025-12-08T05:51:11.544963Z[0m [[32m[1minfo     [0m] [1mWorker starting up pid=9173   [0m [[0m[1m[34mairflow.executors.local_executor.LocalExecutor[0m][0m [36mloc[0m=[35mlocal_executor.py:65[0m
+[2m2025-12-08T06:19:27.222961Z[0m [[32m[1minfo     [0m] [1mchecking for stale bundle versions locally[0m [[0m[1m[34mairflow.dag_processing.bundles.base[0m][0m [36mloc[0m=[35mbase.py:222[0m
